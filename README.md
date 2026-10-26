@@ -318,7 +318,12 @@ In order to reproduce the results from the Track A and Track B submissions, chec
 
 ## License
 
-Demucs is released under the MIT license as found in the [LICENSE](LICENSE) file.
+Demucs code is released under the MIT license as found in the [LICENSE](LICENSE) file.
+The license of the weights is not clear: MusDB contains some data that were only usable for research purpose.
+I sadly cannot help granting a license, both coming from Meta custom data, or from the original MusDB data.
+The 6 source variant of htdemucs was trained only on Meta internal dataset, which likely means CC-NC-BY license
+is applicable, as it was the case for all models released by FAIR.
+Do not write me to ask about it, I won't be able to clarify the situation further, either for MusDB or Meta internal dataset.
 
 [hybrid_paper]: https://arxiv.org/abs/2111.03600
 [waveunet]: https://github.com/f90/Wave-U-Net
